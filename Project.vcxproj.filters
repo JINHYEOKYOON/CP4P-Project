@@ -15,28 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\converting.c">
+    <ClCompile Include="converting.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\fundamentals.c">
+    <ClCompile Include="fundamentals.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\helloWorld.c">
+    <ClCompile Include="helloWorld.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\main.c">
+    <ClCompile Include="manipulating.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\manipulating.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\tokenizing.c">
+    <ClCompile Include="tokenizing.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\tests.py">
-      <Filter>Source Files</Filter>
-    </None>
+    <ClInclude Include="converting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fundamentals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

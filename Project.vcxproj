@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="converting.c" />
+    <ClCompile Include="fundamentals.c" />
+    <ClCompile Include="helloWorld.c" />
+    <ClCompile Include="manipulating.c" />
+    <ClCompile Include="tokenizing.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="converting.h" />
+    <ClInclude Include="fundamentals.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,17 +149,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\converting.c" />
-    <ClCompile Include="..\fundamentals.c" />
-    <ClCompile Include="..\helloWorld.c" />
-    <ClCompile Include="..\main.c" />
-    <ClCompile Include="..\manipulating.c" />
-    <ClCompile Include="..\tokenizing.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\tests.py" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
