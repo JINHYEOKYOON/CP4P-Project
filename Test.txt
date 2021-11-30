@@ -1,0 +1,140 @@
+Last login: Tue Nov 30 08:40:40 on ttys000
+/Users/yunjinhyeog/Desktop/Project/main ; exit;                                 
+yunjinhyeog@yunjinhyeogs-MacBook-Air ~ % /Users/yunjinhyeog/Desktop/Project/main ; exit;
+*** Start of Indexing String Demo ***
+Type not empty string (q - to quit):
+0123456789012345678901234567890123456789012345678901234567890123456789
+warning: this program uses gets(), which is unsafe.
+0123
+Type the character position within the string:
+0123
+Too big... Position reduced to max. availbale
+The character found at 3 position is '3'
+Type not empty string (q - to quit):
+0123456789012345678901234567890123456789012345678901234567890123456789
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Measuring String Demo ***
+Type a string (q - to quit):
+Typeastring
+The length is 11
+Type a string (q - to quit):
+q
+*** End of Measuring String Demo ***
+
+*** Start of Copying Strings demo ***
+Destination string is reset to empty
+Type a source string (q - to quit):
+Typeastring1
+New destination string is 'Typeastring1':
+Destination string is reset to empty
+Type a source string (q - to quit):
+Typeastring
+New destination string is 'Typeastring':
+Destination string is reset to empty
+Type a source string (q - to quit):
+Type
+New destination string is 'Type':
+Destination string is reset to empty
+Type a source string (q - to quit):
+q
+*** End of Copying Strings Demo ***
+
+*** Start of Concatenating Strings Demo ***
+Type the last string (q - to quit):
+Type
+Type the 2nd string:
+Type2
+Concatenated string is 'TypeType2'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+first
+Type the 2nd string to compare:
+second
+1st string is less than 2nd
+Type the 1st string to compare (q - to quit)
+q
+*** End of Comparing Strings Demo ***
+
+*** Start of Searching Strings Demo ***
+Type the big string (q- to quit):
+bigger
+Type the substring:
+subs
+Not found
+Type the big string (q - to quit):
+bigger
+Type the substring:
+big
+Found at 0 position
+Type the big string (q - to quit):
+q
+*** End of Searching String Demo ***
+
+*** Start of Converting Strings to int Demo ***
+Type the int numeric string (q - to quit):
+993
+Converted number is 993Type the int numeric string (q - to quit):
+type
+Converted number is 0Type the int numeric string (q - to quit):
+99o
+Converted number is 99Type the int numeric string (q - to quit):
+q
+*** End of Converting Strings to int Demo ***
+
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+double29
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+29
+Converted number is 29.000000
+Type the double numeric string (q - to quit):
+q
+*** End of Converting Strings to double Demo ***
+
+*** Start of Converting Strings to long Demo ***
+Type the long numeric string (q - to quit):
+long
+Converted number is 0
+Type the long numeric string (q - to quit):
+499900
+Converted number is 499900
+Type the long numeric string (q - to quit):
+seventeen
+Converted number is 0
+Type the long numeric string (q - to quit):
+q
+*** End of Converting strings to long Demo*** 
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few words separated by space(q - to quit):
+I love    
+Word #1 is 'I'
+Word #2 is 'love'
+Type a few words separated by space(q - to quit):
+q
+*** End of Tokenizing Words Demo ***
+
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by comma(q - to quit):
+I,love
+Phrase #1 is 'I'
+Phrase #2 is 'love'
+Type a few phrases separated by comma(q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***
+
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[프로세스 완료됨]
+

@@ -1,0 +1,84 @@
+Last login: Tue Nov 30 00:31:48 on ttys000
+yunjinhyeog@yunjinhyeogs-MacBook-Air ~ % ls
+Applications			Movies
+Applications (Parallels)	Music
+Creative Cloud Files		OneDrive - Seneca
+Desktop				Parallels
+Documents			Pictures
+Downloads			Project
+Library				Public
+yunjinhyeog@yunjinhyeogs-MacBook-Air ~ % cd Desktop
+yunjinhyeog@yunjinhyeogs-MacBook-Air Desktop % cd Project
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % ls
+LICENSE			converting_h.png	manipulating1.png
+Project.sln		fundamentals.c		manipulating2.png
+Project.vcxproj		fundamentals.h		manipulating3.png
+Project.vcxproj.filters	fundamentals1.png	manipulating_h.png
+Project.vcxproj.user	fundamentals2.png	tests.py
+README.md		fundamentals3.png	tokenizing.c
+bin			fundamentals_h.png	tokenizing.h
+converting.c		helloWorld.c		tokenizing_1.png
+converting.h		main			tokenizing_2.png
+converting_1.png	main.c			tokenizing_3.png
+converting_2.png	manipulating.c		tokenizing_h.png
+converting_3.png	manipulating.h		x64
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % gcc converting.c fundamentals.c manipulating.c tokenizing.c main.c -o main
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % ls
+LICENSE			converting_h.png	manipulating1.png
+Project.sln		fundamentals.c		manipulating2.png
+Project.vcxproj		fundamentals.h		manipulating3.png
+Project.vcxproj.filters	fundamentals1.png	manipulating_h.png
+Project.vcxproj.user	fundamentals2.png	tests.py
+README.md		fundamentals3.png	tokenizing.c
+bin			fundamentals_h.png	tokenizing.h
+converting.c		helloWorld.c		tokenizing_1.png
+converting.h		main			tokenizing_2.png
+converting_1.png	main.c			tokenizing_3.png
+converting_2.png	manipulating.c		tokenizing_h.png
+converting_3.png	manipulating.h		x64
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % open main
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % git log
+commit 0ce65d1575d8c3c2b309af39bba10edde6bda037 (HEAD -> main)
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Tue Nov 30 00:19:31 2021 -0500
+
+    main update
+
+commit 96c0b4d3372f81914afb9ff42f970ae5fa3e8078
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Tue Nov 30 00:14:20 2021 -0500
+
+    Main update
+
+commit 3edffc0ec75f9852064d1a4721f7603d6bee1479
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Mon Nov 29 22:55:51 2021 -0500
+
+    update manipulating, tokenizing, main
+
+commit 081ff9fef38f8a20407a6eeb252081431296ddd2
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Mon Nov 29 21:04:59 2021 -0500
+
+    Update fundamental.c
+
+commit 2c7f8505e6364c3c7f1cbf6141a9e7197fbe3678 (origin/main)
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Mon Nov 29 20:30:54 2021 -0500
+
+    Converting.c
+    
+    add verstion 1,2,3
+
+commit 38e63bc2136911077591d92e5b9445c7a5dab7df
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Sun Nov 28 02:39:15 2021 -0500
+
+    v1
+
+commit 10ef54e3dc777201c60cac0d9757b27d636811d1
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Sun Nov 28 02:28:01 2021 -0500
+
+    Initial commit
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % 
