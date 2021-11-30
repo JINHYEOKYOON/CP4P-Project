@@ -21,13 +21,15 @@
   <ItemGroup>
     <ClCompile Include="converting.c" />
     <ClCompile Include="fundamentals.c" />
-    <ClCompile Include="helloWorld.c" />
+    <ClCompile Include="main.c" />
     <ClCompile Include="manipulating.c" />
     <ClCompile Include="tokenizing.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="converting.h" />
     <ClInclude Include="fundamentals.h" />
+    <ClInclude Include="manipulating.h" />
+    <ClInclude Include="tokenizing.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

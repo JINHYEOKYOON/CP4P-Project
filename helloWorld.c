@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 /*
 helloWorld : the canonical test of any programming language thanks to K&R.
 */

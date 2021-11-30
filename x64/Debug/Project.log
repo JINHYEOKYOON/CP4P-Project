@@ -1,11 +1,4 @@
 ﻿  converting.c
-\\Mac\Home\Desktop\Project\converting.c(12,6): warning C4013: 'gets' undefined; assuming extern returning int
-  fundamentals.c
-\\Mac\Home\Desktop\Project\fundamentals.c(11,6): warning C4013: 'gets' undefined; assuming extern returning int
-\\Mac\Home\Desktop\Project\fundamentals.c(17,34): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
-  helloWorld.c
-  manipulating.c
-\\Mac\Home\Desktop\Project\manipulating.c(1,10): fatal error C1083: Cannot open include file: 'manipulating.h': No such file or directory
-  tokenizing.c
-\\Mac\Home\Desktop\Project\tokenizing.c(1,10): fatal error C1083: Cannot open include file: 'tokenizing.h': No such file or directory
-  Generating Code...
+\\Mac\Home\Desktop\Project\converting.c(13,6): warning C4013: 'gets' undefined; assuming extern returning int
+manipulating.obj : error LNK2019: unresolved external symbol print referenced in function manipulating
+\\Mac\Home\Desktop\Project\x64\Debug\Project.exe : fatal error LNK1120: 1 unresolved externals
