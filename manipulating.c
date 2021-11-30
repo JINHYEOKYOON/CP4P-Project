@@ -35,7 +35,7 @@ void manipulating() {
 		else if (result == 0)
 			printf("1st string is equal to 2nd\n");
 		else
-			print("1st string is greater thand 2nd\n");
+			printf("1st string is greater thand 2nd\n");
 		printf("Type the 1st string to compare (q - to quit)\n");
 		gets(compare1);
 

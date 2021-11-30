@@ -1,5 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
-
 #include "fundamentals.h"
 #include "manipulating.h"
 #include "converting.h"
@@ -12,6 +10,3 @@ int main() {
 	tokenizing();
 	return 0;
 }
-
-
-

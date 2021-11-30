@@ -33,7 +33,7 @@ void fundamentals() {
 	printf("Type a string (q - to quit):\n");
 	gets(buffer2);
 	while (strcmp(buffer2, "q") != 0) {
-		printf("The length is %1u\n", strlen(buffer2));
+		printf("The length is %1lu\n", strlen(buffer2));
 		printf("Type a string (q - to quit):\n");
 		gets(buffer2);
 	}
