@@ -1,3 +1,4 @@
+
 #include "fundamentals.h"
 #include "manipulating.h"
 #include "converting.h"
@@ -10,3 +11,6 @@ int main() {
 	tokenizing();
 	return 0;
 }
+
+
+
