@@ -3,12 +3,12 @@
 
 void fundamentals() {
 /* Version 1 */
-	printf("*** Start of Indexing String Demo ***");
+	printf("*** Start of Indexing String Demo ***\n");
 	char bufferl[80];
 	char num_input[10];
 	unsigned int position;
 	printf("Type not empty string (q - to quit):\n");
-	printf("0123456789012345678901234567890123456789012345678901234567890123456789");
+	printf("0123456789012345678901234567890123456789012345678901234567890123456789\n");
 	gets(bufferl);
 	while (strcmp(bufferl, "q") != 0) {
 		printf("Type the character position within the string:\n");
@@ -18,7 +18,7 @@ void fundamentals() {
 			position = strlen(bufferl) - 1;
 			printf("Too big... Position reduced to max. availbale\n");
 		}
-		printf("The character found at %d position is \n'%c'\n", position, bufferl[position]);
+		printf("The character found at %d position is \'%c'\n", position, bufferl[position]);
 		printf("Type not empty string (q - to quit):\n");
 		printf("0123456789012345678901234567890123456789012345678901234567890123456789\n");
 		gets(bufferl);
