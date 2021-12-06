@@ -1,0 +1,82 @@
+Last login: Sun Dec  5 20:38:18 on ttys001
+/Users/yunjinhyeog/Desktop/Project/Version1/main ; exit;                        
+yunjinhyeog@yunjinhyeogs-MacBook-Air ~ % /Users/yunjinhyeog/Desktop/Project/Version1/main ; exit;
+*** Start of Indexing String Demo ***
+Type not empty string (q - to quit):
+0123456789012345678901234567890123456789012345678901234567890123456789
+warning: this program uses gets(), which is unsafe.
+01234
+Type the character position within the string:
+123
+Too big... Position reduced to max. availbale
+The character found at 4 position is '4'
+Type not empty string (q - to quit):
+0123456789012345678901234567890123456789012345678901234567890123456789
+12345
+Type the character position within the string:
+q
+The character found at 0 position is '1'
+Type not empty string (q - to quit):
+0123456789012345678901234567890123456789012345678901234567890123456789
+1
+Type the character position within the string:
+0
+The character found at 0 position is '1'
+Type not empty string (q - to quit):
+0123456789012345678901234567890123456789012345678901234567890123456789
+2
+Type the character position within the string:
+3
+Too big... Position reduced to max. availbale
+The character found at 0 position is '2'
+Type not empty string (q - to quit):
+0123456789012345678901234567890123456789012345678901234567890123456789
+q
+*** End of Indexing Strings Demo ***
+
+*** Start of Concatenating Strings Demo ***
+Type the last string (q - to quit):
+last
+Type the 2nd string:
+second
+Concatenated string is 'lastsecond'
+Type the 1st string (q - to quit):
+q
+*** End of Concatenating Strings Demo ***
+
+*** Start of Converting Strings to int Demo ***
+Type the int numeric string (q - to quit):
+Converting
+Converted number is 0Type the int numeric string (q - to quit):
+13
+Converted number is 13Type the int numeric string (q - to quit):
+two
+Converted number is 0Type the int numeric string (q - to quit):
+good 2 go
+Converted number is 0Type the int numeric string (q - to quit):
+good two go
+Converted number is 0Type the int numeric string (q - to quit):
+23
+Converted number is 23Type the int numeric string (q - to quit):
+23 too
+Converted number is 23Type the int numeric string (q - to quit):
+q 
+*** End of Converting Strings to int Demo ***
+
+*** Start of Tokenizing Sentences Demo ***
+Type a few words separated by space(q - to quit):
+Tokenizing Love
+Word #1 is 'Tokenizing'
+Word #2 is 'Love'
+Type a few words separated by space(q - to quit):
+q
+*** End of Tokenizing Words Demo ***
+
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[프로세스 완료됨]
+

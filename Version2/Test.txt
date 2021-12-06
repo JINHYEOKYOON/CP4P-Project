@@ -1,0 +1,58 @@
+Test for version2 
+
+Last login: Sun Dec  5 20:34:19 on ttys001
+/Users/yunjinhyeog/Desktop/Project/Version2/main ; exit;                        
+yunjinhyeog@yunjinhyeogs-MacBook-Air ~ % /Users/yunjinhyeog/Desktop/Project/Version2/main ; exit;
+*** Start of Measuring String Demo ***
+Type a string (q - to quit):
+warning: this program uses gets(), which is unsafe.
+String
+The length is 6
+Type a string (q - to quit):
+q
+*** End of Measuring String Demo ***
+
+*** Start of Comparing Strings Demo ***
+Type the 1st string to compare (q - to quit):
+Comparing
+Type the 2nd string to compare:
+Com
+1st string is greater thand 2nd
+Type the 1st string to compare (q - to quit)
+q
+*** End of Comparing Strings Demo ***
+
+*** Start of Converting Strings to double Demo ***
+Type the double numeric string (q - to quit):
+Two
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+29
+Converted number is 29.000000
+Type the double numeric string (q - to quit):
+Twenty
+Converted number is 0.000000
+Type the double numeric string (q - to quit):
+q
+*** End of Converting Strings to double Demo ***
+
+*** Start of Tokenizing Phrases Demo ***
+Type a few phrases separated by comma(q - to quit):
+I.Love
+Phrase #1 is 'I.Love'
+Type a few phrases separated by comma(q - to quit):
+I,love
+Phrase #1 is 'I'
+Phrase #2 is 'love'
+Type a few phrases separated by comma(q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***
+
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[프로세스 완료됨]
+

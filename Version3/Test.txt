@@ -1,0 +1,69 @@
+Test for version 3
+
+Last login: Sun Dec  5 20:25:56 on ttys000
+/Users/yunjinhyeog/Desktop/Project/Version3/main ; exit;
+yunjinhyeog@yunjinhyeogs-MacBook-Air ~ % /Users/yunjinhyeog/Desktop/Project/Version3/main ; exit;
+*** Start of Copying Strings demo ***
+Destination string is reset to empty
+Type a source string (q - to quit):
+warning: this program uses gets(), which is unsafe.
+empty
+New destination string is 'empty':
+Destination string is reset to empty
+Type a source string (q - to quit):
+Source
+New destination string is 'Source':
+Destination string is reset to empty
+Type a source string (q - to quit):
+q
+*** End of Copying Strings Demo ***
+
+*** Start of Searching Strings Demo ***
+Type the big string (q- to quit):
+Big
+Type the substring:
+Second
+Not found
+Type the big string (q - to quit):
+Big
+Type the substring:
+Bi 
+Found at 0 position
+Type the big string (q - to quit):
+q
+*** End of Searching String Demo ***
+
+*** Start of Converting Strings to long Demo ***
+Type the long numeric string (q - to quit):
+Long Demo
+Converted number is 0
+Type the long numeric string (q - to quit):
+299 Street E
+Converted number is 299
+Type the long numeric string (q - to quit):
+q
+*** End of Converting strings to long Demo*** 
+
+*** Start of Tokenizing Phrases Demo ***
+Type a few sentences separated by dot(q - to quit):
+Phrase Demo 19
+sentences #1 is 'Phrase Demo 19'
+Type a few sentences separated by dot(q - to quit):
+Phrase string 19
+sentences #1 is 'Phrase string 19'
+Type a few sentences separated by dot(q - to quit):
+I.Love
+sentences #1 is 'I'
+sentences #2 is 'Love'
+Type a few sentences separated by dot(q - to quit):
+q
+*** End of Tokenizing Phrases Demo ***
+
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[프로세스 완료됨]
+
