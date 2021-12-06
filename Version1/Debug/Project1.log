@@ -1,0 +1,11 @@
+﻿  converting.c
+C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\converting.c(9,9): warning C4013: 'gets' undefined; assuming extern returning int
+  fundamentals.c
+C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\fundamentals.c(12,6): warning C4013: 'gets' undefined; assuming extern returning int
+  main.c
+  manipulating.c
+C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\manipulating.c(10,6): warning C4013: 'gets' undefined; assuming extern returning int
+  tokenizing.c
+C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\tokenizing.c(12,6): warning C4013: 'gets' undefined; assuming extern returning int
+  Generating Code...
+  Project1.vcxproj -> C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\Debug\Project1.exe

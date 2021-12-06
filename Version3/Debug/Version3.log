@@ -1,0 +1,3 @@
+﻿  tokenizing.c
+C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Version3\tokenizing.c(11,6): warning C4013: 'gets' undefined; assuming extern returning int
+  Version3.vcxproj -> C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Version3\Debug\Version3.exe
