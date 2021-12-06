@@ -1,0 +1,439 @@
+Last login: Sun Dec  5 20:40:56 on ttys001
+yunjinhyeog@yunjinhyeogs-MacBook-Air ~ % ls
+Applications			Movies
+Applications (Parallels)	Music
+Creative Cloud Files		OneDrive - Seneca
+Desktop				Parallels
+Documents			Pictures
+Downloads			Project
+Library				Public
+yunjinhyeog@yunjinhyeogs-MacBook-Air ~ % cd Desktop/Project
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % ls
+LICENSE
+Project.sln
+Project.vcxproj
+Project.vcxproj.filters
+Project.vcxproj.user
+README.md
+Test.txt
+Version1
+Version2
+Version3
+bin
+converting.c
+converting.h
+converting_1.png
+converting_2.png
+converting_3.png
+converting_h.png
+fundamentals.c
+fundamentals.h
+fundamentals1.png
+fundamentals2.png
+fundamentals3.png
+fundamentals_h.png
+git log.txt
+helloWorld.c
+main
+main.c
+manipulating.c
+manipulating.h
+manipulating1.png
+manipulating2.png
+manipulating3.png
+manipulating_h.png
+tests.py
+tokenizing.c
+tokenizing.h
+tokenizing_1.png
+tokenizing_2.png
+tokenizing_3.png
+tokenizing_h.png
+x64
+스크린샷 2021-11-30 오전 8.56.25.png
+스크린샷 2021-11-30 오전 8.56.29.png
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % git log
+commit 7b8d3f026b07b30062fb364ef883a30bfa318bf2 (HEAD -> main, origin/main)
+Author: AnHuynh912 <95382591+AnHuynh912@users.noreply.github.com>
+Date:   Sun Dec 5 20:08:10 2021 -0500
+
+    Final project
+
+commit fc3fe62ef60da54da534be25b66c2a14c9fd7985
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Sun Dec 5 18:57:20 2021 -0500
+
+    Test contents add
+    
+    For checking
+
+commit e2760a2285d592d9db36df737f5df0a476da3961
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Tue Nov 30 08:55:36 2021 -0500
+
+    Before last submit
+
+commit 0ce65d1575d8c3c2b309af39bba10edde6bda037
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Tue Nov 30 00:19:31 2021 -0500
+
+    main update
+
+commit 96c0b4d3372f81914afb9ff42f970ae5fa3e8078
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Tue Nov 30 00:14:20 2021 -0500
+
+    Main update
+
+commit 3edffc0ec75f9852064d1a4721f7603d6bee1479
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Mon Nov 29 22:55:51 2021 -0500
+
+    update manipulating, tokenizing, main
+
+commit 081ff9fef38f8a20407a6eeb252081431296ddd2
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Mon Nov 29 21:04:59 2021 -0500
+
+    Update fundamental.c
+
+commit 2c7f8505e6364c3c7f1cbf6141a9e7197fbe3678
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Mon Nov 29 20:30:54 2021 -0500
+
+    Converting.c
+    
+    add verstion 1,2,3
+
+commit 38e63bc2136911077591d92e5b9445c7a5dab7df
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Sun Nov 28 02:39:15 2021 -0500
+
+    v1
+
+commit 10ef54e3dc777201c60cac0d9757b27d636811d1
+Author: JINHYEOKYOON <jyoon42@myseneca.ca>
+Date:   Sun Nov 28 02:28:01 2021 -0500
+
+    Initial commit
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % 
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % ls
+LICENSE
+Project.sln
+Project.vcxproj
+Project.vcxproj.filters
+Project.vcxproj.user
+README.md
+Test.txt
+Version1
+Version2
+Version3
+bin
+converting.c
+converting.h
+converting_1.png
+converting_2.png
+converting_3.png
+converting_h.png
+fundamentals.c
+fundamentals.h
+fundamentals1.png
+fundamentals2.png
+fundamentals3.png
+fundamentals_h.png
+git log.txt
+helloWorld.c
+main
+main.c
+manipulating.c
+manipulating.h
+manipulating1.png
+manipulating2.png
+manipulating3.png
+manipulating_h.png
+tests.py
+tokenizing.c
+tokenizing.h
+tokenizing_1.png
+tokenizing_2.png
+tokenizing_3.png
+tokenizing_h.png
+x64
+스크린샷 2021-11-30 오전 8.56.25.png
+스크린샷 2021-11-30 오전 8.56.29.png
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % cd Version1
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version1 % git statu
+git: 'statu' is not a git command. See 'git --help'.
+
+The most similar commands are
+	status
+	stage
+	stash
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version1 % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../.DS_Store
+	deleted:    ../Version3/coverting.c
+	modified:   ../git log.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Test.txt
+	main
+	../Version2/Test.txt
+	../Version2/main
+	../Version3/.DS_Store
+	../Version3/Test.txt
+	../Version3/converting.c
+	../Version3/main
+
+no changes added to commit (use "git add" and/or "git commit -a")
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version1 % cd..
+zsh: command not found: cd..
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version1 % ls
+Debug				fundamentals.h
+Project1.sln			fundamentals1.png
+Project1.vcxproj		main
+Project1.vcxproj.filters	main.c
+Project1.vcxproj.user		manipulating.c
+Test.txt			manipulating.h
+converting.c			manipulating1.png
+converting.h			tokenizing.c
+converting_1.png		tokenizing.h
+fundamentals.c			tokenizing_1.png
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version1 % cd ..
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % cd Version2
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version2 % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../.DS_Store
+	deleted:    ../Version3/coverting.c
+	modified:   ../git log.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../Version1/Test.txt
+	../Version1/main
+	Test.txt
+	main
+	../Version3/.DS_Store
+	../Version3/Test.txt
+	../Version3/converting.c
+	../Version3/main
+
+no changes added to commit (use "git add" and/or "git commit -a")
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version2 % cd ../Version3
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version3 % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   ../.DS_Store
+	deleted:    coverting.c
+	modified:   ../git log.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../Version1/Test.txt
+	../Version1/main
+	../Version2/Test.txt
+	../Version2/main
+	.DS_Store
+	Test.txt
+	converting.c
+	main
+
+no changes added to commit (use "git add" and/or "git commit -a")
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version3 % ls
+Debug				fundamentals.h
+Test.txt			fundamentals3.png
+Version3.sln			main
+Version3.vcxproj		main.c
+Version3.vcxproj.filters	manipulating.c
+Version3.vcxproj.user		manipulating.h
+converting.c			manipulating3.png
+converting.h			tokenizing.c
+converting_3.png		tokenizing.h
+fundamentals.c
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version3 % cd ..
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % ls
+LICENSE
+Project.sln
+Project.vcxproj
+Project.vcxproj.filters
+Project.vcxproj.user
+README.md
+Test.txt
+Version1
+Version2
+Version3
+bin
+converting.c
+converting.h
+converting_1.png
+converting_2.png
+converting_3.png
+converting_h.png
+fundamentals.c
+fundamentals.h
+fundamentals1.png
+fundamentals2.png
+fundamentals3.png
+fundamentals_h.png
+git log.txt
+helloWorld.c
+main
+main.c
+manipulating.c
+manipulating.h
+manipulating1.png
+manipulating2.png
+manipulating3.png
+manipulating_h.png
+tests.py
+tokenizing.c
+tokenizing.h
+tokenizing_1.png
+tokenizing_2.png
+tokenizing_3.png
+tokenizing_h.png
+x64
+스크린샷 2021-11-30 오전 8.56.25.png
+스크린샷 2021-11-30 오전 8.56.29.png
+yunjinhyeog@yunjinhyeogs-MacBook-Air Project % cd Version3
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version3 % ls
+Debug				fundamentals.h
+Test.txt			fundamentals3.png
+Version3.sln			main
+Version3.vcxproj		main.c
+Version3.vcxproj.filters	manipulating.c
+Version3.vcxproj.user		manipulating.h
+converting.c			manipulating3.png
+converting.h			tokenizing.c
+converting_3.png		tokenizing.h
+fundamentals.c
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version3 % git log -p
+commit 7b8d3f026b07b30062fb364ef883a30bfa318bf2 (HEAD -> main, origin/main)
+Author: AnHuynh912 <95382591+AnHuynh912@users.noreply.github.com>
+Date:   Sun Dec 5 20:08:10 2021 -0500
+
+    Final project
+
+diff --git a/Version1/.vs/Project1/v16/.suo b/Version1/.vs/Project1/v16/.suo
+new file mode 100644
+index 0000000..d932e1b
+Binary files /dev/null and b/Version1/.vs/Project1/v16/.suo differ
+diff --git a/Version1/.vs/Project1/v16/Browse.VC.db b/Version1/.vs/Project1/v16/Browse.VC.db
+new file mode 100644
+index 0000000..313e71c
+Binary files /dev/null and b/Version1/.vs/Project1/v16/Browse.VC.db differ
+diff --git a/Version1/.vs/Project1/v16/ipch/AutoPCH/25ba1d447f5bb6b8/FUNDAMENTALS.ipch b/Version1/.vs/Project1/v16/ipch/AutoPCH/25ba1d447f5bb6b8/FUNDAMENTALS.ipch
+new file mode 100644
+index 0000000..fa828da
+Binary files /dev/null and b/Version1/.vs/Project1/v16/ipch/AutoPCH/25ba1d447f5bb6b8/FUNDAMENTALS.ipch differ
+diff --git a/Version1/.vs/Project1/v16/ipch/AutoPCH/2d4ec7ede25e253f/MANIPULATING.ipch b/Version1/.vs/Project1/v16/ipch/AutoPCH/2d4ec7ede25e253f/MANIPULATING.ipch
+new file mode 100644
+index 0000000..57ca87a
+Binary files /dev/null and b/Version1/.vs/Project1/v16/ipch/AutoPCH/2d4ec7ede25e253f/MANIPULATING.ipch differ
+diff --git a/Version1/.vs/Project1/v16/ipch/AutoPCH/3d1b85080e9bdbec/FUNDAMENTALS.ipch b/Version1/.vs/Project1/v16/ipch/AutoPCH/3d1b85080e9bdbec/FUNDAMENTALS.ipch
+new file mode 100644
+index 0000000..0a15268
+Binary files /dev/null and b/Version1/.vs/Project1/v16/ipch/AutoPCH/3d1b85080e9bdbec/FUNDAMENTALS.ipch differ
+diff --git a/Version1/.vs/Project1/v16/ipch/AutoPCH/4a73924df94574e/TOKENIZING.ipch b/Version1/.vs/Project1/v16/ipch/AutoPCH/4a73924df94574e/TOKENIZING.ipch
+new file mode 100644
+index 0000000..f08987a
+Binary files /dev/null and b/Version1/.vs/Project1/v16/ipch/AutoPCH/4a73924df94574e/TOKENIZING.ipch differ
+diff --git a/Version1/.vs/Project1/v16/ipch/AutoPCH/5ecaa5f9be0b2c6d/CONVERTING.ipch b/Version1/.vs/Project1/v16/ipch/AutoPCH/5ecaa5f9be0b2c6d/CONVERTING.ipch
+new file mode 100644
+index 0000000..68259c5
+Binary files /dev/null and b/Version1/.vs/Project1/v16/ipch/AutoPCH/5ecaa5f9be0b2c6d/CONVERTING.ipch differ
+diff --git a/Version1/.vs/Project1/v16/ipch/AutoPCH/637dce01ee71b0e9/MAIN.ipch b/Version1/.vs/Project1/v16/ipch/AutoPCH/637dce01ee71b0e9/MAIN.ipch
+new file mode 100644
+index 0000000..ca9fa12
+Binary files /dev/null and b/Version1/.vs/Project1/v16/ipch/AutoPCH/637dce01ee71b0e9/MAIN.ipch differ
+diff --git a/Version1/.vs/Project1/v16/ipch/AutoPCH/c7c607af9c3b683a/TOKENIZING.ipch b/Version1/.vs/Project1/v16/ipch/AutoPCH/c7c607af9c3b683a/TOKENIZING.ipch
+new file mode 100644
+index 0000000..07b1a74
+Binary files /dev/null and b/Version1/.vs/Project1/v16/ipch/AutoPCH/c7c607af9c3b683a/TOKENIZING.ipch differ
+diff --git a/Version1/.vs/Project1/v16/ipch/AutoPCH/c8f1038f1681c651/CONVERTING.ipch b/Version1/.vs/Project1/v16/ipch/AutoPCH/c8f1038f1681c651/CONVERTING.ipch
+new file mode 100644
+index 0000000..a04bfe8
+Binary files /dev/null and b/Version1/.vs/Project1/v16/ipch/AutoPCH/c8f1038f1681c651/CONVERTING.ipch differ
+diff --git a/Version1/.vs/Project1/v16/ipch/AutoPCH/e043b5f5ddc2d8d0/FUNDAMENTALS.ipch b/Version1/.vs/Project1/v16/ipch/AutoPCH/e043b5f5ddc2d8d0/FUNDAMENTALS.ipch
+new file mode 100644
+index 0000000..2d5ccbe
+Binary files /dev/null and b/Version1/.vs/Project1/v16/ipch/AutoPCH/e043b5f5ddc2d8d0/FUNDAMENTALS.ipch differ
+diff --git a/Version1/.vs/Project1/v16/ipch/AutoPCH/ef5681d57abecb0b/MANIPULATING.ipch b/Version1/.vs/Project1/v16/ipch/AutoPCH/ef5681d57abecb0b/MANIPULATING.ipch
+new file mode 100644
+index 0000000..0406bf9
+Binary files /dev/null and b/Version1/.vs/Project1/v16/ipch/AutoPCH/ef5681d57abecb0b/MANIPULATING.ipch differ
+diff --git a/Version1/Debug/Project1.exe b/Version1/Debug/Project1.exe
+new file mode 100644
+index 0000000..f365f7d
+Binary files /dev/null and b/Version1/Debug/Project1.exe differ
+diff --git a/Version1/Debug/Project1.exe.recipe b/Version1/Debug/Project1.exe.recipe
+new file mode 100644
+index 0000000..5ca372f
+--- /dev/null
++++ b/Version1/Debug/Project1.exe.recipe
+@@ -0,0 +1,11 @@
++<U+FEFF><?xml version="1.0" encoding="utf-8"?>
++<Project>
++  <ProjectOutputs>
++    <ProjectOutput>
++      <FullPath>C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\Debug\Project1.exe</FullPath>
++    </ProjectOutput>
++  </ProjectOutputs>
++  <ContentFiles />
++  <SatelliteDlls />
++  <NonRecipeFileRefs />
++</Project>
+\ No newline at end of file
+diff --git a/Version1/Debug/Project1.ilk b/Version1/Debug/Project1.ilk
+new file mode 100644
+index 0000000..54c86d6
+Binary files /dev/null and b/Version1/Debug/Project1.ilk differ
+diff --git a/Version1/Debug/Project1.log b/Version1/Debug/Project1.log
+new file mode 100644
+index 0000000..2241e9b
+--- /dev/null
++++ b/Version1/Debug/Project1.log
+@@ -0,0 +1,11 @@
++<U+FEFF>  converting.c
++C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\converting.c(9,9): warning C4013: 'gets' undefined; assuming extern returning int
++  fundamentals.c
++C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\fundamentals.c(12,6): warning C4013: 'gets' undefined; assuming extern returning int
++  main.c
++  manipulating.c
++C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\manipulating.c(10,6): warning C4013: 'gets' undefined; assuming extern returning int
++  tokenizing.c
++C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\tokenizing.c(12,6): warning C4013: 'gets' undefined; assuming extern returning int
++  Generating Code...
++  Project1.vcxproj -> C:\Users\xxx\OneDrive\Documents\visual_CPRFinal\Project1\Debug\Project1.exe
+diff --git a/Version1/Debug/Project1.pdb b/Version1/Debug/Project1.pdb
+new file mode 100644
+index 0000000..e27a0e6
+Binary files /dev/null and b/Version1/Debug/Project1.pdb differ
+diff --git a/Version1/Debug/Project1.tlog/CL.command.1.tlog b/Version1/Debug/Project1.tlog/CL.command.1.tlog
+new file mode 100644
+index 0000000..bdcc3d4
+Binary files /dev/null and b/Version1/Debug/Project1.tlog/CL.command.1.tlog differ
+diff --git a/Version1/Debug/Project1.tlog/CL.read.1.tlog b/Version1/Debug/Project1.tlog/CL.read.1.tlog
+new file mode 100644
+index 0000000..7b3f1a1
+Binary files /dev/null and b/Version1/Debug/Project1.tlog/CL.read.1.tlog differ
+diff --git a/Version1/Debug/Project1.tlog/CL.write.1.tlog b/Version1/Debug/Project1.tlog/CL.write.1.tlog
+new file mode 100644
+index 0000000..57da123
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version3 % 
+yunjinhyeog@yunjinhyeogs-MacBook-Air Version3 % 
